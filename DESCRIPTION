@@ -1,12 +1,24 @@
-Package: BuildABiocWorkshop
-Title: Bioconductor or R Workshop Template and Github Actions
-Version: 2.0.0
+Package: SPEAQeasyWorkshop2023
+Title: Bioc2023 SPEAQeasy workshop
+Version: 0.99.0
 Authors@R: 
-    person(given = "Sean",
-           family = "Davis",
+ c(person(given = "Nicholas J.",
+           family = "Eagles",
            role = c("aut", "cre"),
-           email = "seandavi@gmail.com",
-           comment = c(ORCID = "0000-0002-8991-6458"))
+           email = "nick.eagles@libd.org",
+           comment = c(ORCID = "0000-0002-9808-5254")),
+    person(given = "Daianna",
+           family = "Gonzalez-Padilla",
+           role = c("aut", "cre"),
+           email = "glezdaianna@gmail.com",
+           comment = c(ORCID = "0009-0005-8348-3195")), 
+    person(given = "Fernanda ",
+           family = " ",
+           role = c("aut", "cre"),
+           email = " ",
+           comment = c(ORCID = " "))
+           
+  )
 Description: This package serves as a template for using github actions to 
     prepare a Bioconductor Workshop package for use. In particular,
     a pkgdown website and docker image are generated based on workflow 
