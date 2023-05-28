@@ -1,5 +1,5 @@
 Package: SPEAQeasyWorkshop2023
-Title: Bioc2023 SPEAQeasy workshop
+Title: BioC2023 SPEAQeasy Workshop
 Version: 0.99.0
 Authors@R: 
  c(person(given = "Nicholas J.",
@@ -17,12 +17,19 @@ Authors@R:
            role = c("aut", "cre"),
            email = " ",
            comment = c(ORCID = " "))
+    person(given = "Leonardo",
+           family = "Collado-Torres",
+           role = c("ctb"),
+           email = "lcolladotor@gmail.com",
+           comment = c(ORCID = "0000-0003-2140-308X"))
+           
            
   )
-Description: This package serves as a template for using github actions to 
-    prepare a Bioconductor Workshop package for use. In particular,
-    a pkgdown website and docker image are generated based on workflow 
-    settings. 
+Description: This package introduces SPEAQeasy, an RNA-seq processing pipeline 
+            that generates manageable R objects ready for usage in downstream
+            analyses. As an example of its usage and usefulness, a Differential 
+            Expression Analysis will be performed on a real bulk RNA-seq dataset 
+            directly generated from the pipeline. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -38,3 +45,15 @@ URL: https://seandavi.github.io/BuildABiocWorkshop/
 BugReports: https://github.com/seandavi/BuildABiocWorkshop/issues/new/choose
 VignetteBuilder: knitr
 DockerImage: ghcr.io/seandavi/buildabiocworkshop:latest
+Imports: 
+    SummarizedExperiment,
+    recount,
+    edgeR,
+    limma,
+    jaffelab,
+    clusterProfiler,
+    pheatmap,
+    here,
+    BiocStyle,
+    sessioninfo,
+Remotes: LieberInstitute/jaffelab
