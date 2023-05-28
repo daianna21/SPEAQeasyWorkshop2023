@@ -41,7 +41,7 @@ Suggests:
     knitr,
     rmarkdown,
     pkgdown
-URL: https://seandavi.github.io/BuildABiocWorkshop/
+URL: https://github.com/daianna21/SPEAQeasyWorkshop2023
 BugReports: https://github.com/seandavi/BuildABiocWorkshop/issues/new/choose
 VignetteBuilder: knitr
 DockerImage: ghcr.io/seandavi/buildabiocworkshop:latest
