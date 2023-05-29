@@ -289,8 +289,20 @@ head(colData(rse_gene_nic), 2)
 
 ## Differential Expression Analysis
 
-
-
+<figure>
+    <img src="figs/Analyses.jpg" width="700px" align=center />
+        <figcaption style="color: gray; line-height: 0.87; text-align: justify">
+            <font size="-1.8">
+                <b>Figure 2</b>: <b> Summary of the analyses. </b> Steps in yellow will be properly performed. 
+                <b> 1. Data Preparation </b> 
+                <b> 2. Exploratory Data Analysis </b> 
+                <b> 3. Differential Expression Analysis </b> 
+                <b> 4. GO & KEGG Analyses  </b> 
+                <b> 5. DEG visualization  </b> </font> 
+            <font size="0.8"> Abbreviations: CPM: counts per million; QC: quality control; PC: principal component; 
+            DEG: differentially expressed genes; GO: Gene Ontology; KEGG: Kyoto Encyclopedia of Genes and Genomes.</font>
+        </figcaption>
+</figure>
 
 ### 1. Data preparation
 
