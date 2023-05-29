@@ -51,9 +51,16 @@ Imports:
     edgeR,
     limma,
     jaffelab,
+    RColorBrewer,
     clusterProfiler,
+    org.Hs.eg.db,
     pheatmap,
     here,
     BiocStyle,
     sessioninfo,
+    tidyr,
+    VariantAnnotation,
+    dplyr,
+    statmod,
+    backports
 Remotes: LieberInstitute/jaffelab
